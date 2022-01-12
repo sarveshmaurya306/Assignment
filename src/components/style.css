@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+.more{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width:100%; 
+}
+.copyright{
+	opacity:0.5;
+	font-size:0.7rem
+}
+.title{
+	font-size: 0.9rem;
+}
+._container{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contained_center{
+
+	width:100vw;
+	height: 100vh;
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo{
+	display:flex; 
+	justify-content:center; 
+	padding:20px;
+	background:rgba(0, 0, 0, 0.815); 
+	color:white;
+	position:fixed;
+	width:100vw;
+	z-index:1;
+	font-weight:bolder;
+	font-size:25px;
+	box-shadow: 1px 1px 1px 1px gray;
+}
