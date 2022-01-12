@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 
 import MyCard from './components/MyCard';
 import Header from './components/Header';
